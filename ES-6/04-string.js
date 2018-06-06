@@ -4,7 +4,11 @@ console.log("/u0061");
 
 console.log("/u0071");
 
+//includes(), startsWith(), endsWith() § ⇧
+//传统上，JavaScript 只有indexOf方法，可以用来确定一个字符串是否包含在
 
+let str='hello world';
+console.log(str.includes('hello')); 
 
 
 
