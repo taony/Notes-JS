@@ -9,7 +9,8 @@ console.log("/u0071");
 
 let str='hello world';
 console.log(str.includes('hello')); 
-console.log(str.padLeft("0",10));
+
+console.log(str.padStart(20,"0"));
 
 
 
