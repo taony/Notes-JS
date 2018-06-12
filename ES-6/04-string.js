@@ -10,6 +10,22 @@ console.log("/u0071");
 let str='hello world';
 console.log(str.includes('hello')); 
 
+//8.repeat() repeat方法返回一个新字符串，表示将原字符串重复n次。
+console.log('x'.repeat(3)); //返回整数倍
+console.log('x'.repeat(2.9)); //小数取整
+try {
+    console.log('x'.repeat(-1)); //负数会报错
+} catch (e) {
+    console.log(e);
+}
+
+//9.padStart(),padEnd()
+console.log('x'.padStart(5,'a'));
+console.log('y'.padEnd(5,'b'));
+console.log('xxx'.padStart(2,'ab'));
+console.log('xxx'.padEnd(2,'ab'));
+
+
 
 
 
