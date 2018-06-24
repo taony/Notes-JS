@@ -30,5 +30,6 @@ function f() { console.log('I am outside!'); }
   }
 
   f();
+  
 }());
 // Uncaught TypeError: f is not a function
