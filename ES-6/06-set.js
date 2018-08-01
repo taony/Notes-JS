@@ -5,3 +5,7 @@ const set =new Set();
 for(let i of set){
     console.log(i);
 }
+
+set.add(6).add(7).add(8);
+
+set;
