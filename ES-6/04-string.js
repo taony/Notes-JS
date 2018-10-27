@@ -14,7 +14,7 @@ console.log(str.includes('hello'));
 console.log('x'.repeat(3)); //返回整数倍
 console.log('x'.repeat(2.9)); //小数取整
 try {
-    console.log('x'.repeat(-1)); //负数会报错
+    console.log('x'.repeat(1)); //负数会报错
 } catch (e) {
     console.log(e);
 }
