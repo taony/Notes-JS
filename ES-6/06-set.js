@@ -10,6 +10,3 @@ for (let i of set) {
 set.add(6).add(7).add(8);
 
 set;
-
-
-122
