@@ -5,7 +5,7 @@
     console.log(a);
 }
 
-//代码块之外调用let声明的变量，会报异常  
+// 代码块之外调用let声明的变量，会报异常  
 //ReferenceError: a is not defined
 try {
     console.log(a);
