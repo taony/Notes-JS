@@ -13,8 +13,6 @@ try {
     console.log(ex);
 }
 
-
-
 let [e,f,g]=[1,2,3]
 
 console.log(e);
@@ -32,4 +30,5 @@ function f() { console.log('I am outside!'); }
   f();
   
 }());
+
 // Uncaught TypeError: f is not a function
