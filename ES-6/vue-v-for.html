@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  </head>
+
+  <body>
+      <ul id='app'>
+          <li v-for='app in apps'>{{app.appName}}</li>
+      </ul>
+      <script type="text/javascript">
+        var vm=new Vue({
+            el:'#app',
+            data:{
+               apps:[]
+            },
+            methods:{
+              bindApps:function(){
+                  let $this=this;
+                  for(var i=0;i<10;i++){
+                     var app={appId:i,appName:'APP-'+i};
+                     $this.apps.push(app);
+                  }
+              },
+              mounted:function(){
+                this.bindApps();
+              }
+    }
+        });
+      </script>
+  </body>
+</html>

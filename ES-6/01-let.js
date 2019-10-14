@@ -5,15 +5,13 @@
     console.log(a);
 }
 
-//代码块之外调用let声明的变量，会报异常  
+// 代码块之外调用let声明的变量，会报异常  
 //ReferenceError: a is not defined
 try {
     console.log(a);
 } catch (ex) {
     console.log(ex);
 }
-
-
 
 let [e,f,g]=[1,2,3]
 
@@ -32,4 +30,5 @@ function f() { console.log('I am outside!'); }
   f();
   
 }());
+
 // Uncaught TypeError: f is not a function
