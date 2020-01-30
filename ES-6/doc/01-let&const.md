@@ -52,4 +52,6 @@ console.log(PI);
 // PI=3.1415927; // TypeError: Assignment to constant variable.
 
 ```
+const命令也同样不能变量提升，必须先声明，然后才能使用。
+const命令的作用域与let相同。
 
